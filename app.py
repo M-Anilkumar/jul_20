@@ -2,15 +2,15 @@ from dataclasses import replace
 from operator import truediv
 from flask import Flask , render_template ,request 
 from importlib_metadata import method_cache
-from flask import mysql
+#from flask_mysqldb import mysql
 
 
 app = Flask(__name__)
  
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Siva@nil143'
-app.config['MYSQL_DB'] = 'flask'
+#app.config['MYSQL_HOST'] = 'localhost'
+#app.config['MYSQL_USER'] = 'root'
+#app.config['MYSQL_PASSWORD'] = 'Siva@nil143'
+#app.config['MYSQL_DB'] = 'flask'
  
 #mysql = MySQL(app)
 
